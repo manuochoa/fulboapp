@@ -41,12 +41,12 @@ class ShowTeams extends Component{
 
         return (
             <VStack>                
-                <Text fontSize="3xl" textAlign="center" isTruncated>
+                <Text fontSize="2xl" textAlign="center" isTruncated>
                     {this.state.team1} - {this.state.team2}                            
                 </Text>
                 <Divider orientation="horizontal" />                        
-                  <Text textAlign="center">{this.state.date}</Text>
-                  <Text textAlign="center">Apuesta minima: {(this.state.minimum)/10**18} BNB</Text>
+                  <Text fontSize="xl" textAlign="center">{this.state.date}</Text>
+                  <Text fontSize="xl" textAlign="center">Apuesta minima: {(this.state.minimum)/10**18} BNB</Text>
                 <Divider orientation="horizontal" />
             </VStack>
         )

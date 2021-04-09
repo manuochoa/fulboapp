@@ -70,7 +70,7 @@ class Statistics extends Component{
   render(props){       
     return (
       <VStack>
-        
+        <StatGroup fontSize="l" padding= "3">  
           <Divider orientation="horizontal" />                        
             <Text textAlign="center">Estadisticas</Text>            
           <Divider mb="5" orientation="horizontal" />
@@ -93,7 +93,7 @@ class Statistics extends Component{
           <SimpleGrid columns={3} spacing={4} w="100%">
             <VStack>
               <Stat >
-                <StatLabel >Apuestas por {this.state.team1}</StatLabel>
+                <StatLabel >Apuestas por {this.state.team1} </StatLabel>
                 <StatNumber textAlign="center">{this.state.counterBetsTeam1/10**18} <Bnb />
                 </StatNumber>
               </Stat>    
@@ -104,7 +104,7 @@ class Statistics extends Component{
             </VStack>
             <VStack>
               <Stat>
-                <StatLabel>Apuestas por Empate</StatLabel>
+                <StatLabel>Apuestas por empate</StatLabel>
                 <StatNumber textAlign="center">{this.state.counterBetsEqual/10**18} <Bnb />
                 </StatNumber>
               </Stat>  
@@ -125,7 +125,7 @@ class Statistics extends Component{
               </Stat>
             </VStack>
           </SimpleGrid>
-                   
+        </StatGroup>            
       </VStack>
     )
   }  

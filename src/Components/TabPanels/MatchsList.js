@@ -91,8 +91,8 @@ class MatchsList extends Component{
               <Box 
                 as="button" width="full" outlineColor="#90CDF4" 
                 borderWidth="1px" borderRadius="lg" p="2" margin="2" key={address}
-                onClick = { () => this.setState( {matchSelected: {address} } ) } >
-                <Text fontSize="3xl" textAlign="center" isTruncated>
+                onClick = { () => this.setState( {matchSelected: {address} }) } >
+                <Text fontSize="xl" textAlign="center" isTruncated>
                   {team1} - {team2}
                   <br></br>             
                 </Text>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, Grid, Box, Divider, GridItem, Spinner } from "@chakra-ui/react"
+import { Text, Box, GridItem } from "@chakra-ui/react"
 import creator from "../ethereum/matchCreator"
 import ShowTeams from "./MatchDetails/showTeams"
 import Statistics from "./MatchDetails/statistics"
