@@ -17,7 +17,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
-/Components/ethereum/truffle-config.js
+src/Components/ethereum/truffle-config.js
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
